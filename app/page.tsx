@@ -1,3 +1,5 @@
+'use client';
+
 import { Amplify } from "aws-amplify";
 import awsAuthConfig from "@/config/aws-config/auth";
 import dynamic from "next/dynamic";

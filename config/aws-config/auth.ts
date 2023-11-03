@@ -3,7 +3,7 @@ const Auth = {
   userPoolId: process.env.NEXT_PUBLIC_COGNITO_USER_POOL_ID,
   userPoolWebClientId: process.env.NEXT_PUBLIC_COGNITO_APPLICATION_CLIENT_ID,
   cookieStorage: {
-    domain: 'localhost',
+    domain: process.env.NEXT_PUBLIC_COOKIE_DOMAIN,
     path: '/',
     expires: 365,
     secure: true,

@@ -15,7 +15,6 @@ const authProvider: AuthProvider = {
   },
   // when the user navigates, make sure that their credentials are still valid
   checkAuth: async () => {
-    console.log(await Auth.currentAuthenticatedUser());
     await Auth.currentAuthenticatedUser()
       .then(() => Promise.resolve())
       .catch(() => Promise.reject());

@@ -1,9 +1,7 @@
-"use client";
-
 import authProvider from "@/providers/AuthProvider/AuthProvider";
 import dataProvider from "@/providers/DataProvider/DataProvider";
 import { Resource } from "ra-core";
-import { Admin, Create, ListGuesser } from "react-admin";
+import { Admin, ListGuesser } from "react-admin";
 import Login from "./Login/Login";
 import UserCreate from "./Form/UserEdit/UserCreate";
 
